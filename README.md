@@ -22,3 +22,4 @@ At the moment script is using `mongodump` and we update ``domain`` field in `pus
 Mongroexport exports data to json files and these can be modified in script with updated domain, before importing it into target db.
 
 Mongoexport does not preserve data types and  NumberLong("1431677405876") will become 1431677405876.
+example: [collexport.sh](https://github.com/witmicko/supercore-domain-migration/blob/master/collexport.sh)
